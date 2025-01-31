@@ -9,7 +9,7 @@ public class PiCalculator {
 
         while (true) {
             if (N >= maxIterations) {
-                throw new RuntimeException("Klaida: Iteracijų limitas buvo viršytas");
+                throw new RuntimeException("Klaida: Iteracijų limitas buvo viršytas. Iteracijų limitas yra " + maxIterations);
             }
 
             double totalSumOfCords = 0.0;
